@@ -1,0 +1,19 @@
+services:
+  mongo:
+    image: mongo:latest
+    container_name: iums-mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo_data:/data/db
+  app:
+    build: .
+    container_name: iums-app
+    ports:
+      - '3000:3000'
+    env_file:
+      - .env
+    depends_on:
+      - mongo
+volumes:
+  mongo_data:
