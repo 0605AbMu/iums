@@ -29,7 +29,7 @@ docker-compose up --build
 ```
 
 ### 4. Swagger orqali test qilish
-Brauzerda `http://localhost:3001/api-docs` manziliga kiring.
+Brauzerda `http://localhost:3000/api-docs` manziliga kiring.
 
 ## Muhim endpointlar
 - `POST /api/auth/register` — Ro‘yxatdan o‘tish (email orqali aktivatsiya)
