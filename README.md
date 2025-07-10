@@ -6,7 +6,7 @@ Ushbu loyiha JWT asosida autentifikatsiya, email orqali aktivatsiya va admin pan
 
 ### 1. Klonlash va o‘rnatish
 ```bash
-git clone <repo-url>
+git clone https://github.com/0605AbMu/iums.git
 cd iums
 npm install
 ```
