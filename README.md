@@ -54,4 +54,5 @@ Brauzerda `http://localhost:3001/api-docs` manziliga kiring.
 - `views/` — EJS view’lar (foydalanuvchilar ro‘yxati, 404)
 
 ## Muammo yoki savollar uchun
-Issues bo‘limiga murojaat qiling yoki admin bilan bog‘laning.
+Bog'lanish uchun
+ - Tg: @Abdumannon_Shamsiyev
